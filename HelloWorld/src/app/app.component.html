@@ -5,3 +5,8 @@
     <img [src]="logoUrl" alt="BridgeLabz Logo" width="200px">
   </a>
 </div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <input type="text" [value]="userName" (input)="onInputChange($event)" placeholder="Enter your name">
+  <p>Hello, {{ userName }} from BridgeLabz!</p>
+</div>
