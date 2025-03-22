@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  message: string = "Hello from BridgeLabz"; // Property to bind using interpolation
+  title='Hello from BridgeLabz'
+  logoUrl= 'assets/images/bridgelabz_com_logo.jpg';
 }
